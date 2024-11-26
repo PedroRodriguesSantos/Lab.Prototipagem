@@ -1,0 +1,12 @@
+{
+    "root": "react/plataforma_feedback",
+    "builds": [
+      {
+        "src": "react/plataforma_feedback/package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "build"
+        }
+      }
+    ]
+  }
