@@ -62,7 +62,7 @@ body {
 }
 
 .dashboard {
-  padding: 50px 20px;
+  padding: 20px;
   text-align: center;
   background-color: #ffffff;
 }
@@ -75,10 +75,31 @@ body {
 
 .charts {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 20px;
+}
+
+
+
+
+.chart-container {
+  display: flex;
+  flex-direction: row;
+  /* Coloca o texto à esquerda e o gráfico à direita */
   gap: 20px;
+  /* Espaço entre o texto e o gráfico */
+  align-items: center;
+  /* Alinha o conteúdo verticalmente */
 }
 
 .chart {
-  width: 30%;
+  width: 300px;
+  height: 300px;
+}
+
+.chart-container p {
+  max-width: 200px;
+  font-size: 16px;
+  text-align: justify;
 }
