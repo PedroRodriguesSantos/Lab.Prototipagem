@@ -16,10 +16,10 @@ const Navbar = () => {
                     <Link to="/usuario">Usuário</Link>
                 </li>
                 <li>
-                    <Link to="/dashboard">Empresa</Link>
+                    <Link to="/empresa">Empresa</Link>
                 </li>
                 <li>
-                    <Link to="/dashboard">Recompensa</Link>
+                    <Link to="/recompensas">Recompensa</Link>
                 </li>
             </ul>
         </nav>

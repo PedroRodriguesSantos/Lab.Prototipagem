@@ -5,6 +5,7 @@ import Welcome from './components/Welcome';
 import HowItWorks from './components/HowItWorks';
 import Dashboard from './components/Dashboard';
 import Usuario from './components/Usuario';
+import Recompensas from './components/Recompensas';
 import './index.css';
 
 const App = () => {
@@ -28,7 +29,8 @@ const App = () => {
         <Route path="/usuario" element={<Usuario />} />
 
         {/* Página de Dashboard */}
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/recompensas" element={<Recompensas />} />
+
       </Routes>
     </Router>
   );
