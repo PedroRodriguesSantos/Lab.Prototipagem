@@ -9,34 +9,29 @@ body {
   background-color: #2196F3;
   color: white;
   padding: 10px 20px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .Title {
-  margin-bottom: 20px;
-  padding-bottom: 20px;
   text-align: center;
-  /* Centraliza o texto dentro da div */
-  width: 100%;
-  /* Garante que a div ocupe toda a largura */
+  margin: 0;
 }
 
 .Title h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin: 0;
-  /* Ajuste o valor para o tamanho desejado */
 }
 
-.navbar .logo img {
-  height: 40px;
-}
 
 .nav-links {
   list-style: none;
-  margin-top: 20px;
   display: flex;
+  justify-content: center;
+  gap: 1px;
+  margin: 0;
+  margin-top: 20px;
+
 }
 
 .nav-links li {
@@ -51,7 +46,7 @@ body {
 }
 
 .welcome h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #2196F3;
 }
 
@@ -62,7 +57,7 @@ body {
 }
 
 .how-it-works h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #2196F3;
 }
 
@@ -70,6 +65,11 @@ body {
   padding: 50px 20px;
   text-align: center;
   background-color: #ffffff;
+}
+
+.dashboard h1 {
+  font-size: 1.8rem;
+  color: #2196F3;
 }
 
 

@@ -11,7 +11,7 @@ const App = () => {
       <Navbar />
       <Welcome />
       <HowItWorks />
-
+      <Dashboard />
     </div>
   );
 }
