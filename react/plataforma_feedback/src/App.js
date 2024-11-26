@@ -5,6 +5,7 @@ import Welcome from './components/Welcome';
 import HowItWorks from './components/HowItWorks';
 import Dashboard from './components/Dashboard';
 import Usuario from './components/Usuario';
+import Empresa from './components/Empresa';
 import Recompensas from './components/Recompensas';
 import './index.css';
 
@@ -13,7 +14,6 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-        {/* Página de Welcome */}
         <Route
           path="/"
           element={
@@ -25,10 +25,10 @@ const App = () => {
           }
         />
 
-        {/* Página de Como Funciona */}
         <Route path="/usuario" element={<Usuario />} />
 
-        {/* Página de Dashboard */}
+        <Route path="/empresa" element={<Empresa />} />
+
         <Route path="/recompensas" element={<Recompensas />} />
 
       </Routes>
