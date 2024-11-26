@@ -7,8 +7,6 @@ const Navbar = () => {
                 <h1>Plataforma de Feedback</h1>
             </div>
 
-            <br />
-
             <ul className="nav-links">
                 <li>Home</li>
                 <li>Empresa</li>
